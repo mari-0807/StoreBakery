@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "230239041808",
+    "project_id": "storebakery-d2b18",
+    "storage_bucket": "storebakery-d2b18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230239041808:android:0b6230196f72d004670d95",
+        "android_client_info": {
+          "package_name": "com.example.storebakery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230239041808-b23i1qifnp214j4jtn4k1uq1jvp1no0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcyxadqQfJikyj513j2aaJebBpo90y4fo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230239041808-b23i1qifnp214j4jtn4k1uq1jvp1no0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

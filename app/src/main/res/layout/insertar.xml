@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/amarillopalo"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crear usuario"
+            android:textSize="25sp"
+            android:fontFamily="serif"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/inputNombre"
+            android:hint="Nombre"
+            android:textColor="@color/gris"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/inputTelefono"
+            android:hint="Número telefonico"
+            android:textColor="@color/gris"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnInsertar"
+            android:paddingTop="10dp"
+            android:background="@color/rosapalo"
+            android:text="Registro"
+            android:textSize="17sp"
+            android:fontFamily="serif"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

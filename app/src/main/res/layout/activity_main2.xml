@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6EAC6"
+    tools:context=".MainActivity2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/fondo_c" />
+
+        <Button
+            android:id="@+id/btn_iniciar"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="480dp"
+            android:layout_marginBottom="40dp"
+            android:backgroundTint="@color/rosapalo"
+            android:fontFamily="serif"
+            android:text="INICIAR SESION"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="La manera más facil de ordenar"
+            android:textColor="@color/black"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="¡Ahora podrás ordenar tus bakery preferidos desde nuestra App!"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_iniciar"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="Accede o crea una cuenta si aún no la tienes para empezar a disfrutar de Bakery"
+            android:textColor="@color/black"
+            android:textSize="23sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
